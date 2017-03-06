@@ -25,4 +25,4 @@ gulp.task('compile-less', function(){
 //./ starts you at the same level, .. brings you back to the previous file area
 
 //DEFAULT TASK!!!//
-gulp.task('default', ['compile-less'], ['./styles/*.less']) // <---- this is an array of tasks to be run (second arg), default name
+gulp.task('default', ['compile-less', 'watch']) // <---- this is an array of tasks to be run (second arg), default name

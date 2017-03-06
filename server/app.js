@@ -29,9 +29,9 @@ app.get('/home', function(request, response){
 })
 
 //#8 json object to SEND over info via home page//
-app.send("/home", function(request, response){
-	response.render('home', {dataFromOurDatabase})
-})
+// app.send("/home", function(request, response){
+// 	response.render('home', {dataFromOurDatabase})
+// })
 
 //is this the gulp file add that I need to get my css to work??
 //confused on this, not sure what to do since I keep getting
