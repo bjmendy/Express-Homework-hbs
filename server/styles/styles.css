@@ -1,0 +1,47 @@
+@pink: pink;
+@white: white;
+@black: black;
+@Impact: Impact, Sans-Serif;
+@red: red;
+@green: rgba(1, 200, 100, 0.5);
+@indigo: rgba(30, 40, 255, 0.9);
+
+body {
+	background-color: @pink;
+	font-family: @Impact;
+	color: @white;
+	text-shadow: 1px, #000000;
+	margin-top: 20%;
+	margin-bottom: 20%;
+	margin-left: 30%;
+	margin-right: 30%;
+	drop-shadow: 1px;
+	border-style: solid @black;
+	border-radius: 3px;
+}
+
+p {
+	color: @black;
+	font-family: @Impact;
+	drop-shadow: 1px;
+	font-family: @Impact;
+	border-style: solid @black;
+	border-radius: 3px;
+}
+
+#login {
+  margin-top: 20%;
+  margin-left: 30%;
+  font-family: @Impact;
+  color: @black;
+  border-style: solid @black;
+	border-radius: 3px;
+
+  form {
+    width: 100%;
+    background-color: @pink;
+    color: @black;
+    border-style: solid @black;
+	border-radius: 3px;
+  }
+}
